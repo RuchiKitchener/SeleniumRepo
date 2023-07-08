@@ -60,6 +60,11 @@ public class Testcases {
 		System.out.println(new ReadingData().getlName());
 	}
 	
+	@Test
+	public void test1() {
+		
+	}
+	
 	@AfterMethod
 	public void After() {
 		driver.quit();
